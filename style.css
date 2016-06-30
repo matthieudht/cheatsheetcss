@@ -1,0 +1,28 @@
+* {
+  border: 1px solid black;
+}
+
+/***************************************
+*********************************
+******** for mobile **************
+***************************************
+*************************************/
+
+
+header {
+  background-color: blue;
+  font-size: 1.2em;
+
+}
+
+nav {
+  background-color: red;
+}
+
+section {
+  background-color: orange;
+}
+
+table {
+  background-color: green;
+}
