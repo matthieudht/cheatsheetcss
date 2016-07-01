@@ -24,10 +24,8 @@ header {
 h1 {
   margin-bottom: 1%;
 
-
 }
 p {
-  margin-top: 0;
   margin-bottom: 1%;
 
 }
@@ -44,12 +42,17 @@ nav {
   background-color: #a63317;
   margin-bottom: 2%;
   font-family: fantasy;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 nav a {
   display: inline-block;
-  margin: 1%;
-  justify-content: center;
+  margin: auto%;
   text-decoration: none;
+  padding: 5% 1%;
+
 }
 
 a:link {
@@ -72,19 +75,20 @@ a:hover, a:visited:hover {
 /* section of the page */
 
 section {
-  margin: 5% 5% 0;
+  margin: 5% 5%;
 
 }
 
 table {
   display: block;
-  margin: 10% auto;
+  margin: 5% auto;
 
 }
 
-thead {
+thead{
   color: #a63317;
 }
+
 
 tr {
   margin-bottom: 1%;
@@ -96,4 +100,58 @@ tr td:nth-child(1) {
 
 tr td:nth-child(2) {
   font-family: cursive; ;
+}
+
+/* section */
+
+
+
+/*****************************************
+********************************************
+******** for tab devices *****************
+****************************************
+**********************************************/
+
+
+
+@media screen and (min-width: 765px) {
+  nav {
+    height: 5%;
+  }
+
+  table {
+    width: 45%;
+    display: inline-table;
+    margin: 5% 2%;
+  }
+}
+
+
+
+/************************************************
+**************************************************
+*********** for big desktop ******************
+****************************************************
+**************************************************/
+
+
+
+@media screen and (min-width: 1200px) {
+
+  nav {
+    height: 50px;
+  }
+
+  section {
+    margin: 5% 1% 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+
+  table {
+    width: 30%;
+    margin: 10px 10px;
+  }
 }
