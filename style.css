@@ -8,16 +8,49 @@
 ***************************************
 *************************************/
 
-
+/* header */
 header {
   background-color: blue;
   font-size: 1.2em;
+  text-align: center;
+  font-family: Helvetica, cursive;
 
 }
 
+}
+h1 {
+  background-color: tomato;
+  margin-bottom: 1%;
+
+}
+p {
+  background-color: tomato;
+  margin-top: 0;
+  margin-bottom: 1%;
+
+}
+img {
+  display: none;
+
+}
+/* header */
+
+
+
+/*navigation*/
 nav {
   background-color: red;
+  margin-bottom: 2%;
 }
+nav a {
+  display: inline-block;
+  margin: 1%;
+  justify-content: center;
+}
+
+/*navigation */
+
+
 
 section {
   background-color: orange;
