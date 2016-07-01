@@ -1,6 +1,4 @@
-* {
-  border: 1px solid black;
-}
+
 
 /***************************************
 *********************************
@@ -10,7 +8,7 @@
 
 /* header */
 header {
-  background-color: blue;
+  background-color: #661f0e;
   font-size: 1.2em;
   text-align: center;
   font-family: Helvetica, cursive;
@@ -19,12 +17,10 @@ header {
 
 }
 h1 {
-  background-color: tomato;
   margin-bottom: 1%;
 
 }
 p {
-  background-color: tomato;
   margin-top: 0;
   margin-bottom: 1%;
 
@@ -39,7 +35,7 @@ img {
 
 /*navigation*/
 nav {
-  background-color: red;
+  background-color: #a63317;
   margin-bottom: 2%;
 }
 nav a {
@@ -52,10 +48,24 @@ nav a {
 
 
 
+
+/* section of the page */
+
 section {
-  background-color: orange;
+  margin-top: 5%;
+
 }
 
 table {
-  background-color: green;
+  display: block;
+  margin: 5% auto;
+
+}
+
+thead {
+  color: #a63317;
+}
+
+tr td:nth-child(1) {
+  color: #b25f10;
 }
